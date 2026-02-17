@@ -4,20 +4,21 @@ import { Link } from 'react-router-dom';
 export function Hero() {
   // Google Drive video ID: 1EXsdqWH8QbeqrR1sH-M0iD2iPCT1HNAF
   const videoId = '1EXsdqWH8QbeqrR1sH-M0iD2iPCT1HNAF';
+  const videoUrl = `https://drive.google.com/uc?export=download&id=${videoId}`;
   
   return (
     <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Video Background */}
-      <div className="absolute inset-0 w-full h-full bg-black">
-        <iframe
-          className="absolute inset-0 w-full h-full"
-          src={`https://drive.google.com/file/d/${videoId}/preview`}
-          frameBorder="0"
-          allow="autoplay"
-          allowFullScreen
-          title="Travel Hero Video"
-        />
-      </div>
+      <video
+        className="absolute inset-0 w-full h-full object-cover"
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
+        <source src={videoUrl} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
       <div className="absolute inset-0 bg-black/40" />
 
       <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
