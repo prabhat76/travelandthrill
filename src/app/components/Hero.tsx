@@ -1,15 +1,23 @@
-import { ImageWithFallback } from './figma/ImageWithFallback';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export function Hero() {
+  // Google Drive video ID: 1EXsdqWH8QbeqrR1sH-M0iD2iPCT1HNAF
+  const videoId = '1EXsdqWH8QbeqrR1sH-M0iD2iPCT1HNAF';
+  
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center">
-      <ImageWithFallback
-        src="https://images.unsplash.com/photo-1533130061792-64b345e4a833?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1400"
-        alt="Himalayan travel destination"
-        className="absolute inset-0 w-full h-full object-cover"
-      />
+    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
+      {/* Video Background */}
+      <div className="absolute inset-0 w-full h-full bg-black">
+        <iframe
+          className="absolute inset-0 w-full h-full"
+          src={`https://drive.google.com/file/d/${videoId}/preview`}
+          frameBorder="0"
+          allow="autoplay"
+          allowFullScreen
+          title="Travel Hero Video"
+        />
+      </div>
       <div className="absolute inset-0 bg-black/40" />
 
       <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
