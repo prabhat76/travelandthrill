@@ -1,5 +1,7 @@
-import { Plane, Instagram } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 import { Link } from 'react-router-dom';
+
+const logoUrl = '/logo.png';
 
 export function Footer() {
   return (
@@ -9,7 +11,11 @@ export function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Plane className="w-8 h-8 text-blue-400" />
+              <img
+                src={logoUrl}
+                alt="Travel & Thrills logo"
+                className="h-9 w-auto max-w-[170px] object-contain"
+              />
               <span className="font-bold text-xl">Travel & Thrills</span>
             </div>
             <p className="text-gray-400 mb-4">

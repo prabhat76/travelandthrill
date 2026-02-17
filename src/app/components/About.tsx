@@ -20,11 +20,24 @@ export function About() {
             alt="Travel & Thrills"
             className="w-full h-72 object-cover rounded-lg"
           />
-          <p className="text-gray-600 leading-7">
-            We strive to ensure customer comfort and safety with prompt, professional service.
-            From hotel reservations and transport integration to itinerary suggestions and booking
-            confirmations, our team handles every phase of travel with care.
-          </p>
+          <div className="text-gray-600 leading-7 space-y-3">
+            <p>
+              Travel & Thrills is a trusted organization in Darjeeling, West Bengal, that has the
+              perfect solution for all your travel requirements. We are the best tourist and
+              transport service provider in Darjeeling, West Bengal, and specialize in bespoke
+              holiday packages.
+            </p>
+            <p>
+              We strive to ensure our customers enjoy personalized service and superior quality in
+              everything from our vehicles and tour management to hotel reservations and event
+              management. We also offer flight booking, travel insurance, and passport & visa
+              services.
+            </p>
+            <p>
+              We ensure customer comfort and safety, prompt and professional service, and best
+              value for our customers.
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

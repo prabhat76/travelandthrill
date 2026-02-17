@@ -39,6 +39,11 @@ export function PackageDetailPage() {
         <div className="flex gap-4">
           <Link to="/packages" className="bg-gray-100 hover:bg-gray-200 px-5 py-2 rounded text-gray-900">All Packages</Link>
           <Link to="/contact" className="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded text-white">Book / Enquire</Link>
+          {pkg.sourceUrl ? (
+            <a href={pkg.sourceUrl} target="_blank" rel="noreferrer" className="bg-gray-100 hover:bg-gray-200 px-5 py-2 rounded text-gray-900">
+              Original Source
+            </a>
+          ) : null}
         </div>
       </div>
     </section>

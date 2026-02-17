@@ -15,6 +15,7 @@ export type PackageItem = {
   highlights: string[];
   details: string;
   image: string;
+  sourceUrl?: string;
 };
 
 export type BlogItem = {
@@ -24,6 +25,7 @@ export type BlogItem = {
   content: string;
   image: string;
   date: string;
+  sourceUrl?: string;
 };
 
 export type DestinationItem = {
@@ -97,100 +99,227 @@ export const services: ServiceItem[] = [
 
 export const packages: PackageItem[] = [
   {
-    slug: 'sikkim-bliss-4n5d',
-    title: 'Sikkim Bliss Exploring the Roof of the World (4N / 5D)',
-    duration: '5 Days / 4 Nights',
-    price: '₹10,450*',
-    people: 'Family / group friendly',
-    highlights: ['Gangtok, Lachung, Yumthang', 'Naga Falls and Bhim Nala', 'Sightseeing-focused itinerary'],
-    details:
-      'A compact and popular North Sikkim circuit ideal for travelers who want mountain landscapes, valley views, and key sightseeing points in limited time.',
-    image: 'https://catalog.wlimg.com/4/1682301/other-images/522647.jpg'
+    slug: 'sikkim-bliss-exploring-the-roof-of-the-world-4-n-5d',
+    title: 'Sikkim Bliss Exploring the Roof of the World 4 N - 5d',
+    duration: '4 Nights / 5 Days',
+    price: '₹10,450',
+    people: 'As per itinerary',
+    highlights: ['Destination Covered: Gangtok, Yumthang, Lachung', 'Tour Activities: Sightseeing', 'Tour Themes: Hill Stations & Valleys, Religious & Pilgrimage'],
+    details: 'Welcome to Bagdogra Airport. Representative assistance and vehicle pick-up. Drive to Gangtok, followed by North Sikkim and Yumthang circuit as per itinerary.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399050.jpg',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/sikkim-bliss-exploring-the-roofof-the-world4n5d.htm'
   },
   {
-    slug: 'sikkim-bliss-5n6d',
-    title: 'SIKKIM BLISS: Exploring the Roof of the World (5N / 6D)',
-    duration: '6 Days / 5 Nights',
-    price: '₹15,675*',
-    people: 'Small groups and families',
-    highlights: ['Gangtok, Yumthang, Lachung', 'Extended mountain stays', 'Balanced travel pace'],
-    details:
-      'An extended version of the Sikkim circuit that offers more time for local exploration and scenic travel across key highland routes.',
-    image: 'https://catalog.wlimg.com/about-image/about-12.jpg'
+    slug: 'sikkim-bliss-exploring-the-roof-of-the-world-5nights-6-days',
+    title: 'SIKKIM BLISS: EXPLORING THE ROOF OF THE WORLD 5NIGHTS - 6 DAYS',
+    duration: '5 Nights / 6 Days',
+    price: '₹15,675',
+    people: 'As per itinerary',
+    highlights: ['Destination Covered: Gangtok, Yumthang, Lachung', 'Tour Activities: Sightseeing', 'Tour Themes: Hill Stations & Valleys'],
+    details: 'Extended Sikkim package with Gangtok and North Sikkim route for travelers who want additional days in the hills.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399074.jpg',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/sikkim-bliss-exploring-the-roofof-the-world-5nights6-days.htm'
   },
   {
-    slug: 'nepal-tour-5n6d',
-    title: 'Nepal Tour (5N / 6D)',
-    duration: '6 Days / 5 Nights',
-    price: '₹19,500*',
-    people: 'Couples / families / groups',
-    highlights: ['Kathmandu and Pokhara', 'Cultural + scenic mix', 'Cross-border holiday plan'],
-    details:
-      'A curated Nepal itinerary covering heritage and scenic experiences, suited for travelers looking for a blend of city culture and natural beauty.',
-    image: 'https://catalog.wlimg.com/service-images/ttw/tour-operators3.jpg'
+    slug: 'nepal-tour-5n-6d',
+    title: 'Nepal Tour- 5N 6D',
+    duration: '5 Nights / 6 Days',
+    price: '₹19,500',
+    people: 'As per itinerary',
+    highlights: ['Destination Covered: Kathmandu, Pokhara', 'Tour Activities: Sightseeing', 'Tour Themes: Hill Stations & Valleys, Religious & Pilgrimage'],
+    details: 'As per train schedule arrival in Gorakhpur, transport assistance is provided and the itinerary proceeds to Kathmandu and Pokhara sightseeing.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399649.jpg',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/nepal-package-from-gorakhpur.htm'
   },
   {
-    slug: 'bhutan-mystique-4n5d',
-    title: 'Bhutan Mystique Gateway to Happiness (4N / 5D)',
+    slug: 'sikkim-bliss-exploring-the-roof-of-the-world-tour',
+    title: 'Sikkim Bliss Exploring the roof of the world tour',
+    duration: '6 Nights / 7 Days',
+    price: 'On Request',
+    people: 'As per itinerary',
+    highlights: ['Destination Covered: Gangtok, Pelling, Yumthang, Lachung, Pemayangtse Monastery', 'Tour Activities: Camping, Sightseeing', 'Tour Themes: Wildlife, Hill Stations & Valleys'],
+    details: 'Complete Sikkim circuit package with mountain sightseeing and multi-stop stay plan.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399650.jpg',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/6-night-7-days-sikkim-package.htm'
+  },
+  {
+    slug: 'bhutan-mystique-gateway-to-happines-4-nights-5-days-tour',
+    title: 'Bhutan Mystique Gateway to Happines 4 Nights 5 Days Tour',
     duration: '5 Days / 4 Nights',
     price: 'On Request',
-    people: '2-10 people',
-    highlights: ['Phuentsholing, Thimphu, Paro', '3-star stay options', 'Pickup and drop support'],
-    details:
-      'A carefully planned Bhutan route for first-time visitors who want a smooth border-to-capital-to-valley travel experience.',
-    image: 'https://catalog.wlimg.com/service-images/ttw/car-coach-rental2.jpg'
+    people: 'As per itinerary',
+    highlights: ['Destination Covered: Thimphu', 'Tour Activities: Sightseeing', 'Tour Themes: Hill Stations & Valleys'],
+    details: 'Bhutan itinerary route designed for mountain and cultural sightseeing.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399754.jpg',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/4-nights-5-days-bhutan-tour.htm'
   },
   {
-    slug: 'darjeeling-mirik-5d',
-    title: 'Darjeeling & Mirik Tour (5 Days)',
-    duration: '5 Days / 4 Nights',
+    slug: '5-nights-6-days-tours-to-guwahati-to-meghalaya',
+    title: '5 Nights - 6 Days Tours To Guwahati To Meghalaya',
+    duration: '5 Nights / 6 Days',
     price: 'On Request',
-    people: 'Couples / families / groups',
-    highlights: ['Tiger Hill sunrise', 'Local Darjeeling sightseeing', 'Mirik lake and viewpoints'],
-    details:
-      'A classic hill holiday combining iconic Darjeeling points with the calm landscapes and attractions around Mirik.',
-    image: 'https://catalog.wlimg.com/service-images/ttw/flight-booking4.jpg'
+    people: 'As per itinerary',
+    highlights: ['Destination Covered: Shillong, Cherrapunji, Dawki, Mawsmai Falls, Elephant Falls', 'Tour Activities: Trekking, Sightseeing', 'Tour Themes: Hill Stations & Valleys, Religious & Pilgrimage'],
+    details: 'Meghalaya route featuring Shillong, Cherrapunji, and Dawki sightseeing.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400033.jpg',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/5-nights6-days-toursto-guwahatito-meghalaya.htm'
   },
   {
-    slug: 'darjeeling-offbeat-6n7d',
-    title: 'Darjeeling & Offbeat Places (6N / 7D)',
-    duration: '7 Days / 6 Nights',
+    slug: 'amazing-north-east-india-06-nights-07-days',
+    title: 'Amazing North East India 06 Nights - 07 Days',
+    duration: '6 Nights / 7 Days',
     price: 'On Request',
-    people: '2-10 people',
-    highlights: ['Sittong, Dawaipani, Mirik', 'Offbeat village experiences', 'Mixed CP/AP meal plans'],
-    details:
-      'Designed for travelers who prefer quieter mountain stays and less-crowded routes while still covering key Darjeeling region highlights.',
-    image: 'https://catalog.wlimg.com/service-images/ttw/hotel-booking3.jpg'
+    people: 'As per itinerary',
+    highlights: ['Destination Covered: Gangtok, Darjeeling, Kalimpong, Hanuman Tok, Ganesh Tok, Enchey Monastery', 'Tour Activities: Mountaineering, Sightseeing', 'Tour Themes: Hill Stations & Valleys'],
+    details: 'North East India package covering key Sikkim and Darjeeling circuits.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400034.jpg',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/amazing-north-east-india06-nights07-days.htm'
+  },
+  {
+    slug: '5-nights-6-days-kashmir-to-kashmir-dal-lake-gulmarg-sonamarg-pahalgam-tour',
+    title: '5 Nights 6 Days Kashmir To Kashmir - Dal Lake - Gulmarg - Sonamarg - Pahalgam Tour',
+    duration: '5 Nights / 6 Days',
+    price: 'On Request',
+    people: 'As per itinerary',
+    highlights: ['Destination Covered: Srinagar, Pahalgam, Sonamarg, Gulmarg, Shankaracharya Temple, Dal Lake', 'Tour Activities: Mountaineering', 'Tour Themes: Hill Stations & Valleys'],
+    details: 'Kashmir circuit package with Srinagar, Gulmarg, Sonamarg, and Pahalgam sightseeing.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400035.jpg',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/5-nights6-days-kashmirto-kashmir-dal-lake-gulmarg-sonamarg-pahalgam.htm'
+  },
+  {
+    slug: '2-nights-3-days-goa-tour-package',
+    title: '2 Nights - 3 Days Goa Tour Package',
+    duration: '2 Nights / 3 Days',
+    price: 'On Request',
+    people: 'As per itinerary',
+    highlights: ['Destination Covered: North Goa, South Goa', 'Tour Activities: Beaches Sightseeing', 'Tour Themes: Beaches and Islands'],
+    details: 'Short Goa package focused on North and South Goa sightseeing.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400036.jpg',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/2-nights3-days-goa-tour-package.htm'
+  },
+  {
+    slug: '13-nights-14-days-everest-base-camp-trek-tour',
+    title: '13 Nights 14 Days Everest Base Camp Trek Tour',
+    duration: '13 Nights / 14 Days',
+    price: 'On Request',
+    people: 'As per itinerary',
+    highlights: ['Destination Covered: Kathmandu, Solukhumbu', 'Tour Activities: Trekking', 'Tour Themes: Adventure Tours, Hill Stations & Valleys'],
+    details: 'Long-duration Everest Base Camp trek itinerary via Kathmandu and Solukhumbu route.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400037.jpg',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/13-nights14-days-everest-base-camp-trek-tour.htm'
+  },
+  {
+    slug: 'kerala-4-night-5-days-package',
+    title: 'Kerala 4 Night 5 Days Package',
+    duration: '4 Nights / 5 Days',
+    price: 'On Request',
+    people: 'As per itinerary',
+    highlights: ['Destination Covered: Thekkady, Alleppey, Munnar', 'Tour Activities: House Boat, Boating, Sightseeing', 'Tour Themes: Hill Stations & Valleys'],
+    details: 'Kerala route package with Munnar, Thekkady, and Alleppey experiences.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400038.jpg',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/kerala4-night5-days-package.htm'
   }
 ];
 
 export const blogs: BlogItem[] = [
   {
-    slug: 'sikkim-bliss-4n5d-guide',
-    title: 'Sikkim Bliss: Exploring the Roof of the World (4N/5D)',
-    excerpt: 'A compact North Sikkim experience covering Gangtok, Lachung, and Yumthang Valley.',
-    content:
-      'This route is ideal for travelers who want to cover major North Sikkim highlights in a short duration. It includes scenic drives, valley views, and curated local stays.',
-    image: 'https://catalog.wlimg.com/4/1682301/other-images/522647.jpg',
-    date: 'Feb 2026'
+    slug: 'sikkim-bliss-exploring-the-roof-of-the-world-4-n-5d-blog',
+    title: 'Sikkim Bliss Exploring the Roof of the World 4 N - 5d',
+    excerpt: '4 Nights / 5 Days',
+    content: 'Destination Covered: Gangtok, Yumthang, Lachung. Tour Activities: Sightseeing. Tour Themes: Hill Stations & Valleys, Religious & Pilgrimage.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399050.jpg',
+    date: 'Sat, 09 Mar 2024',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/sikkim-bliss-exploring-the-roofof-the-world4n5d.htm'
   },
   {
-    slug: 'sikkim-bliss-5n6d-highlights',
-    title: 'Sikkim Bliss (5N/6D) with Himalayan Highlights',
-    excerpt: 'Extended itinerary for travelers who want more mountain views and local experiences.',
-    content:
-      'If you want a more relaxed pace than a short itinerary, this version allows better time distribution between transfers and sightseeing across Sikkim circuits.',
-    image: 'https://catalog.wlimg.com/about-image/about-12.jpg',
-    date: 'Feb 2026'
+    slug: 'sikkim-bliss-exploring-the-roof-of-the-world-5nights-6-days-blog',
+    title: 'SIKKIM BLISS: EXPLORING THE ROOF OF THE WORLD 5NIGHTS - 6 DAYS',
+    excerpt: '5 Nights / 6 Days',
+    content: 'Destination Covered: Gangtok, Yumthang, Lachung. Tour Activities: Sightseeing. Tour Themes: Hill Stations & Valleys.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399074.jpg',
+    date: 'Sat, 09 Mar 2024',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/sikkim-bliss-exploring-the-roofof-the-world-5nights6-days.htm'
   },
   {
-    slug: 'nepal-tour-kathmandu-pokhara',
-    title: 'Nepal Tour 5N/6D: Kathmandu to Pokhara',
-    excerpt: 'A curated cross-border holiday with spiritual landmarks and scenic lakeside city life.',
-    content:
-      'This Nepal route combines urban heritage and natural viewpoints, suitable for families and groups seeking a balanced cultural holiday.',
-    image: 'https://catalog.wlimg.com/service-images/ttw/tour-operators3.jpg',
-    date: 'Feb 2026'
+    slug: 'nepal-tour-5n-6d-blog',
+    title: 'Nepal Tour- 5N 6D',
+    excerpt: '5 Nights / 6 Days',
+    content: 'Destination Covered: Kathmandu, Pokhara. Tour Activities: Sightseeing. Tour Themes: Hill Stations & Valleys, Religious & Pilgrimage.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399649.jpg',
+    date: 'Sat, 16 Mar 2024',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/nepal-package-from-gorakhpur.htm'
+  },
+  {
+    slug: 'sikkim-bliss-exploring-the-roof-of-the-world-tour-blog',
+    title: 'Sikkim Bliss Exploring the roof of the world tour',
+    excerpt: '6 Nights / 7 Days',
+    content: 'Destination Covered: Gangtok, Pelling, Yumthang, Lachung, Pemayangtse Monastery. Tour Activities: Camping, Sightseeing. Tour Themes: Wildlife, Hill Stations & Valleys.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399650.jpg',
+    date: 'Sat, 16 Mar 2024',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/6-night-7-days-sikkim-package.htm'
+  },
+  {
+    slug: 'bhutan-mystique-gateway-to-happines-4-nights-5-days-tour-blog',
+    title: 'Bhutan Mystique Gateway to Happines 4 Nights 5 Days Tour',
+    excerpt: '4 Nights / 5 Days',
+    content: 'Destination Covered: Thimphu. Tour Activities: Sightseeing. Tour Themes: Hill Stations & Valleys.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399754.jpg',
+    date: 'Mon, 18 Mar 2024',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/4-nights-5-days-bhutan-tour.htm'
+  },
+  {
+    slug: '5-nights-6-days-tours-to-guwahati-to-meghalaya-blog',
+    title: '5 Nights - 6 Days Tours To Guwahati To Meghalaya',
+    excerpt: '5 Nights / 6 Days',
+    content: 'Destination Covered: Shillong, Cherrapunji, Dawki, Mawsmai Falls, Elephant Falls. Tour Activities: Trekking, Sightseeing. Tour Themes: Hill Stations & Valleys, Religious & Pilgrimage.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400033.jpg',
+    date: 'Thu, 21 Mar 2024',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/5-nights6-days-toursto-guwahatito-meghalaya.htm'
+  },
+  {
+    slug: 'amazing-north-east-india-06-nights-07-days-blog',
+    title: 'Amazing North East India 06 Nights - 07 Days',
+    excerpt: '6 Nights / 7 Days',
+    content: 'Destination Covered: Gangtok, Darjeeling, Kalimpong, Hanuman Tok, Ganesh Tok, Enchey Monastery. Tour Activities: Mountaineering, Sightseeing. Tour Themes: Hill Stations & Valleys.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400034.jpg',
+    date: 'Thu, 21 Mar 2024',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/amazing-north-east-india06-nights07-days.htm'
+  },
+  {
+    slug: '5-nights-6-days-kashmir-tour-blog',
+    title: '5 Nights 6 Days Kashmir To Kashmir - Dal Lake - Gulmarg - Sonamarg - Pahalgam Tour',
+    excerpt: '5 Nights / 6 Days',
+    content: 'Destination Covered: Srinagar, Pahalgam, Sonamarg, Gulmarg, Shankaracharya Temple, Dal Lake. Tour Activities: Mountaineering. Tour Themes: Hill Stations & Valleys.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400035.jpg',
+    date: 'Thu, 21 Mar 2024',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/5-nights6-days-kashmirto-kashmir-dal-lake-gulmarg-sonamarg-pahalgam.htm'
+  },
+  {
+    slug: '2-nights-3-days-goa-tour-package-blog',
+    title: '2 Nights - 3 Days Goa Tour Package',
+    excerpt: '2 Nights / 3 Days',
+    content: 'Destination Covered: North Goa, South Goa. Tour Activities: Beaches Sightseeing. Tour Themes: Beaches and Islands.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400036.jpg',
+    date: 'Thu, 21 Mar 2024',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/2-nights3-days-goa-tour-package.htm'
+  },
+  {
+    slug: '13-nights-14-days-everest-base-camp-trek-tour-blog',
+    title: '13 Nights 14 Days Everest Base Camp Trek Tour',
+    excerpt: '13 Nights / 14 Days',
+    content: 'Destination Covered: Kathmandu, Solukhumbu. Tour Activities: Trekking. Tour Themes: Adventure Tours, Hill Stations & Valleys.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400037.jpg',
+    date: 'Thu, 21 Mar 2024',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/13-nights14-days-everest-base-camp-trek-tour.htm'
+  },
+  {
+    slug: 'kerala-4-night-5-days-package-blog',
+    title: 'Kerala 4 Night 5 Days Package',
+    excerpt: '4 Nights / 5 Days',
+    content: 'Destination Covered: Thekkady, Alleppey, Munnar. Tour Activities: House Boat, Boating, Sightseeing. Tour Themes: Hill Stations & Valleys.',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400038.jpg',
+    date: 'Thu, 21 Mar 2024',
+    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/kerala4-night5-days-package.htm'
   }
 ];
 

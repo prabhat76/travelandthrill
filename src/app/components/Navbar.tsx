@@ -1,6 +1,8 @@
 import { useState } from 'react';
-import { Menu, X, Plane } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
+
+const logoUrl = '/logo.png';
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +14,11 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center gap-2">
-            <Plane className="w-8 h-8 text-blue-600" />
+            <img
+              src={logoUrl}
+              alt="Travel & Thrills logo"
+              className="h-9 md:h-10 w-auto max-w-[130px] md:max-w-[170px] object-contain"
+            />
             <span className="font-bold text-xl text-gray-900">Travel & Thrills Holidays</span>
           </Link>
 
