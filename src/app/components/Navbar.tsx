@@ -19,7 +19,7 @@ export function Navbar() {
               alt="Travel & Thrills logo"
               className="h-9 md:h-10 w-auto max-w-[130px] md:max-w-[170px] object-contain"
             />
-            <span className="font-bold text-xl text-gray-900">Travel & Thrills Holidays</span>
+            <span className="font-bold text-xl text-gray-900">Travel & Thrills</span>
           </Link>
 
           {/* Desktop Navigation */}
