@@ -1,24 +1,15 @@
+import { ImageWithFallback } from './figma/ImageWithFallback';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export function Hero() {
-  // Google Drive video ID: 1EXsdqWH8QbeqrR1sH-M0iD2iPCT1HNAF
-  const videoId = '1EXsdqWH8QbeqrR1sH-M0iD2iPCT1HNAF';
-  const videoUrl = `https://drive.google.com/uc?export=download&id=${videoId}`;
-  
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Video Background */}
-      <video
+    <section id="home" className="relative h-screen flex items-center justify-center">
+      <ImageWithFallback
+        src="https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399050.jpg"
+        alt="Himalayan travel destination"
         className="absolute inset-0 w-full h-full object-cover"
-        autoPlay
-        muted
-        loop
-        playsInline
-      >
-        <source src={videoUrl} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      />
       <div className="absolute inset-0 bg-black/40" />
 
       <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">

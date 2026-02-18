@@ -349,7 +349,7 @@ export const destinations: DestinationItem[] = [
     slug: 'gangtok',
     name: 'Gangtok',
     country: 'India',
-    image: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399050.jpg',
     description: 'Capital of Sikkim with monasteries, viewpoints, and lively MG Marg evenings.',
     details:
       'Gangtok is one of the most popular gateways to Sikkim tours, known for scenic viewpoints, monasteries, and convenient access to North Sikkim circuits.',
@@ -359,7 +359,7 @@ export const destinations: DestinationItem[] = [
     slug: 'lachung',
     name: 'Lachung',
     country: 'India',
-    image: 'https://images.unsplash.com/photo-1587474260584-136574528ed5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399074.jpg',
     description: 'Scenic North Sikkim village and base for Yumthang and high-altitude excursions.',
     details:
       'Lachung serves as a key overnight stop for travelers exploring Yumthang Valley and nearby mountain attractions in North Sikkim.',
@@ -369,7 +369,7 @@ export const destinations: DestinationItem[] = [
     slug: 'yumthang-valley',
     name: 'Yumthang Valley',
     country: 'India',
-    image: 'https://images.unsplash.com/photo-1472396961693-142e6e269027?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399650.jpg',
     description: 'Known as the Valley of Flowers with alpine landscapes and river views.',
     details:
       'Yumthang Valley is one of the signature highlights of North Sikkim tours, offering seasonal blooms, dramatic mountain terrain, and cold valley rivers.',
@@ -379,7 +379,7 @@ export const destinations: DestinationItem[] = [
     slug: 'darjeeling',
     name: 'Darjeeling',
     country: 'India',
-    image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400034.jpg',
     description: 'Tea gardens, Tiger Hill sunrise, monasteries, and colonial mountain charm.',
     details:
       'Darjeeling remains a flagship hill destination with iconic sunrise points, tea estate views, and a blend of culture, heritage, and mountain leisure.',
@@ -389,7 +389,7 @@ export const destinations: DestinationItem[] = [
     slug: 'kathmandu',
     name: 'Kathmandu',
     country: 'Nepal',
-    image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399649.jpg',
     description: 'Historic temples, heritage squares, and rich Nepali cultural experiences.',
     details:
       'Kathmandu features prominently in Nepal holiday circuits for its temples, architecture, and cultural landmarks, often paired with Pokhara.',
@@ -399,7 +399,7 @@ export const destinations: DestinationItem[] = [
     slug: 'paro',
     name: 'Paro',
     country: 'Bhutan',
-    image: 'https://images.unsplash.com/photo-1528127269322-539801943592?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200',
+    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399754.jpg',
     description: 'A serene Bhutanese valley town known for monasteries and mountain views.',
     details:
       'Paro is a key stop in Bhutan packages, offering scenic valleys, cultural sites, and a calm mountain atmosphere suited for leisure travel.',
