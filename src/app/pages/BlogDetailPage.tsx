@@ -1,9 +1,20 @@
 import { Link, useParams } from 'react-router-dom';
-import { blogs } from '../data/siteContent';
+import { useFirebaseBlogs } from '../hooks/useFirebaseBlogs';
 
 export function BlogDetailPage() {
   const { slug } = useParams();
+  const { blogs, loading } = useFirebaseBlogs();
   const blog = blogs.find((item) => item.slug === slug);
+
+  if (loading) {
+    return (
+      <section className="pt-28 pb-16 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-gray-600">Loading blog...</p>
+        </div>
+      </section>
+    );
+  }
 
   if (!blog) {
     return (

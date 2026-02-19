@@ -1,14 +1,18 @@
+import { useState } from 'react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export function Hero() {
+  const [heroImageSrc, setHeroImageSrc] = useState('/banner.jpeg');
+
   return (
     <section id="home" className="relative h-screen flex items-center justify-center">
       <ImageWithFallback
-        src="https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399050.jpg"
+        src={heroImageSrc}
         alt="Himalayan travel destination"
         className="absolute inset-0 w-full h-full object-cover"
+        onError={() => setHeroImageSrc('https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399050.jpg')}
       />
       <div className="absolute inset-0 bg-black/40" />
 

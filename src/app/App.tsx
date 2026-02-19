@@ -13,6 +13,7 @@ import { PackageDetailPage } from './pages/PackageDetailPage';
 import { BlogDetailPage } from './pages/BlogDetailPage';
 import { PopularDestinations } from './components/PopularDestinations';
 import { DestinationDetailPage } from './pages/DestinationDetailPage';
+import { AdminPanel } from './pages/AdminPanel';
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
         <Route path="/packages/:slug" element={<PackageDetailPage />} />
         <Route path="/blogs" element={<div className="pt-16"><Blogs /></div>} />
         <Route path="/blogs/:slug" element={<BlogDetailPage />} />
+        <Route path="/cp" element={<AdminPanel />} />
         <Route path="/testimonials" element={<div className="pt-16"><Testimonials /></div>} />
         <Route path="/contact" element={<div className="pt-16"><Contact /></div>} />
         <Route path="*" element={<HomePage />} />
