@@ -4,15 +4,15 @@ import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export function Hero() {
-  const [heroImageSrc, setHeroImageSrc] = useState('/banner.jpeg');
+  const [heroImageSrc, setHeroImageSrc] = useState('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&h=900&fit=crop&q=80');
 
   return (
     <section id="home" className="relative h-screen flex items-center justify-center">
       <ImageWithFallback
         src={heroImageSrc}
-        alt="Himalayan travel destination"
+        alt="Himalayan mountains from Darjeeling"
         className="absolute inset-0 w-full h-full object-cover"
-        onError={() => setHeroImageSrc('https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399050.jpg')}
+        onError={() => setHeroImageSrc('https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=1600&h=900&fit=crop&q=80')}
       />
       <div className="absolute inset-0 bg-black/40" />
 

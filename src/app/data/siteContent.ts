@@ -1,11 +1,3 @@
-export type ServiceItem = {
-  slug: string;
-  title: string;
-  description: string;
-  details: string;
-  image: string;
-};
-
 export type PackageItem = {
   slug: string;
   title: string;
@@ -38,64 +30,7 @@ export type DestinationItem = {
   highlights: string[];
 };
 
-export const services: ServiceItem[] = [
-  {
-    slug: 'tour-operators',
-    title: 'Tour Operators',
-    description: 'Expertly managed holiday planning across Darjeeling, Sikkim, Bhutan, and Nepal.',
-    details:
-      'Our team designs complete itineraries with hotel suggestions, local transport coordination, and sightseeing planning to make your trip smooth from arrival to departure.',
-    image: 'https://catalog.wlimg.com/service-images/ttw/tour-operators3.jpg'
-  },
-  {
-    slug: 'car-coach-rental',
-    title: 'Car & Coach Rental',
-    description: 'Comfortable and reliable transport options for local and long-route travel.',
-    details:
-      'We provide suitable vehicle options for families, couples, and groups with route planning support across hill and plain circuits.',
-    image: 'https://catalog.wlimg.com/service-images/ttw/car-coach-rental2.jpg'
-  },
-  {
-    slug: 'flight-booking',
-    title: 'Flight Booking',
-    description: 'Convenient domestic and international flight ticket assistance.',
-    details:
-      'Get help with itinerary-friendly flight options, fare selection, and coordinated travel timing with your land package.',
-    image: 'https://catalog.wlimg.com/service-images/ttw/flight-booking4.jpg'
-  },
-  {
-    slug: 'railway-ticket-booking',
-    title: 'Railway Ticket Booking',
-    description: 'Hassle-free rail ticket support to keep your journey smooth.',
-    details:
-      'We assist in planning rail connectivity for your holiday route and suggest practical arrival/departure options.',
-    image: 'https://catalog.wlimg.com/service-images/ttw/railway-ticket-booking3.jpg'
-  },
-  {
-    slug: 'passport-visa-services',
-    title: 'Passport & Visa Services',
-    description: 'Guidance and support for travel documentation and visa requirements.',
-    details:
-      'Our team shares checklist guidance and helps you prepare documents for international travel circuits like Bhutan and Nepal.',
-    image: 'https://catalog.wlimg.com/service-images/ttw/passport-visa-services2.jpg'
-  },
-  {
-    slug: 'travel-insurance-services',
-    title: 'Travel Insurance Services',
-    description: 'Travel protection plans for safer and stress-free vacations.',
-    details:
-      'Choose suitable coverage options based on your duration, destination, and activities for better trip security.',
-    image: 'https://catalog.wlimg.com/service-images/ttw/travel-insurance-services2.jpg'
-  },
-  {
-    slug: 'hotel-booking',
-    title: 'Hotel Booking',
-    description: 'Carefully selected stays including hotels, resorts, and guesthouses.',
-    details:
-      'We arrange stays across budgets with location convenience and itinerary fit for family, group, or couple tours.',
-    image: 'https://catalog.wlimg.com/service-images/ttw/hotel-booking3.jpg'
-  }
-];
+// ...existing code...
 
 export const packages: PackageItem[] = [
   {

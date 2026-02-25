@@ -1,6 +1,5 @@
 import { Hero } from '../components/Hero';
 import { About } from '../components/About';
-import { Services } from '../components/Services';
 import { PopularDestinations } from '../components/PopularDestinations';
 import { TourPackages } from '../components/TourPackages';
 import { Testimonials } from '../components/Testimonials';
@@ -12,7 +11,6 @@ export function HomePage() {
     <>
       <Hero />
       <About />
-      <Services />
       <PopularDestinations />
       <TourPackages />
       <Testimonials />

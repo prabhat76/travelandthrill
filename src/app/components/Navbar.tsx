@@ -26,7 +26,6 @@ export function Navbar() {
           <div className="hidden md:flex items-center gap-6">
             <Link to="/" className="text-gray-700 hover:text-blue-600 transition">Home</Link>
             <Link to="/about" className="text-gray-700 hover:text-blue-600 transition">About</Link>
-            <Link to="/services" className="text-gray-700 hover:text-blue-600 transition">Services</Link>
             <Link to="/destinations" className="text-gray-700 hover:text-blue-600 transition">Destinations</Link>
             <Link to="/packages" className="text-gray-700 hover:text-blue-600 transition">Packages</Link>
             <Link to="/testimonials" className="text-gray-700 hover:text-blue-600 transition">Reviews</Link>
@@ -51,7 +50,6 @@ export function Navbar() {
             <div className="flex flex-col gap-3">
               <Link to="/" onClick={closeMenu} className="text-gray-700 hover:text-blue-600 transition text-left">Home</Link>
               <Link to="/about" onClick={closeMenu} className="text-gray-700 hover:text-blue-600 transition text-left">About</Link>
-              <Link to="/services" onClick={closeMenu} className="text-gray-700 hover:text-blue-600 transition text-left">Services</Link>
               <Link to="/destinations" onClick={closeMenu} className="text-gray-700 hover:text-blue-600 transition text-left">Destinations</Link>
               <Link to="/packages" onClick={closeMenu} className="text-gray-700 hover:text-blue-600 transition text-left">Packages</Link>
               <Link to="/testimonials" onClick={closeMenu} className="text-gray-700 hover:text-blue-600 transition text-left">Reviews</Link>

@@ -118,7 +118,7 @@ const emptyPackage: PackageFormState = {
   sourceUrl: ''
 };
 
-type TabKey = 'blogs' | 'destinations' | 'services' | 'packages';
+type TabKey = 'blogs' | 'destinations' | 'packages';
 
 const slugify = (value: string) =>
   value
@@ -144,7 +144,6 @@ export function AdminPanel() {
 
   const [blogs, setBlogs] = useState<BlogRecord[]>([]);
   const [destinations, setDestinations] = useState<DestinationRecord[]>([]);
-  const [services, setServices] = useState<ServiceRecord[]>([]);
   const [packages, setPackages] = useState<PackageRecord[]>([]);
 
   const [blogForm, setBlogForm] = useState<BlogFormState>(emptyBlog);
@@ -180,7 +179,6 @@ export function AdminPanel() {
 
     const blogsRef = ref(db, 'blogs');
     const destinationsRef = ref(db, 'destinations');
-    const servicesRef = ref(db, 'services');
     const packagesRef = ref(db, 'packages');
 
     const unsubscribeBlogs = onValue(blogsRef, (snapshot) => {
@@ -203,16 +201,6 @@ export function AdminPanel() {
       setDestinations(nextDestinations);
     });
 
-    const unsubscribeServices = onValue(servicesRef, (snapshot) => {
-      const value = snapshot.val() ?? {};
-      const nextServices: ServiceRecord[] = Object.entries(value).map(([id, record]) => ({
-        id,
-        ...(record as Omit<ServiceRecord, 'id'>)
-      }));
-      nextServices.sort((a, b) => a.title.localeCompare(b.title));
-      setServices(nextServices);
-    });
-
     const unsubscribePackages = onValue(packagesRef, (snapshot) => {
       const value = snapshot.val() ?? {};
       const nextPackages: PackageRecord[] = Object.entries(value).map(([id, record]) => ({
@@ -222,11 +210,9 @@ export function AdminPanel() {
       nextPackages.sort((a, b) => a.title.localeCompare(b.title));
       setPackages(nextPackages);
     });
-
     return () => {
       unsubscribeBlogs();
       unsubscribeDestinations();
-      unsubscribeServices();
       unsubscribePackages();
     };
   }, [isAdmin]);

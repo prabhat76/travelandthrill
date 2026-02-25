@@ -38,11 +38,9 @@ export function Footer() {
             <h3 className="text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2 text-gray-400">
               <li><Link to="/about" className="hover:text-white transition">About Us</Link></li>
-              <li><Link to="/services" className="hover:text-white transition">Our Services</Link></li>
               <li><Link to="/destinations" className="hover:text-white transition">Destinations</Link></li>
               <li><Link to="/packages" className="hover:text-white transition">Tour Packages</Link></li>
-              <li><Link to="/testimonials" className="hover:text-white transition">Testimonials</Link></li>
-              <li><Link to="/blogs" className="hover:text-white transition">Blogs</Link></li>
+              <li><Link to="/testimonials" className="hover:text-white transition">Reviews</Link></li>
               <li><Link to="/contact" className="hover:text-white transition">Contact Us</Link></li>
             </ul>
           </div>
