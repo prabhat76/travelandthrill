@@ -110,8 +110,9 @@ export function Contact() {
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto">
-          <div className="space-y-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Left Column - Enquiry Form */}
             <div className="bg-white p-6 rounded-lg border border-gray-200">
               <h3 className="text-2xl mb-5 text-gray-900">Quick Enquiry</h3>
               <form className="grid grid-cols-1 md:grid-cols-2 gap-4" onSubmit={handleSubmit}>
@@ -183,6 +184,7 @@ export function Contact() {
               </form>
             </div>
 
+            {/* Right Column - Contact Information */}
             <div>
               <h3 className="text-2xl mb-6 text-gray-900">Contact Information</h3>
               <div className="space-y-6">
@@ -235,27 +237,29 @@ export function Contact() {
                     </a>
                   </div>
                 </div>
-
-                <div className="mt-8">
-                  <h4 className="text-xl mb-4 text-gray-900">Visit Us</h4>
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3568.2487!2d88.35278!3d27.052689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e425076702f83b%3A0x9e5f6846afb9eb68!2sTravel%20%26%20Thrills!5e0!3m2!1sen!2sin!4v1708873200000"
-                    width="100%"
-                    height="450"
-                    style={{ border: 0 }}
-                    allowFullScreen={true}
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    className="rounded-lg"
-                  />
-                </div>
               </div>
             </div>
+          </div>
 
-            <div className="bg-blue-50 p-6 rounded-lg">
-              <h4 className="mb-2 text-gray-900">Need Immediate Assistance?</h4>
-              <p className="text-gray-600">Call Us: View Mobile Number (as listed on official website)</p>
-            </div>
+          {/* Full Width Map Section Below */}
+          <div className="mt-8 bg-white p-6 rounded-lg border border-gray-200">
+            <h4 className="text-xl mb-4 text-gray-900">Visit Us</h4>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3568.2487!2d88.35278!3d27.052689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e425076702f83b%3A0x9e5f6846afb9eb68!2sTravel%20%26%20Thrills!5e0!3m2!1sen!2sin!4v1708873200000"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="rounded-lg"
+            />
+          </div>
+
+          {/* Call to Action */}
+          <div className="mt-8 bg-blue-50 p-6 rounded-lg">
+            <h4 className="mb-2 text-gray-900">Need Immediate Assistance?</h4>
+            <p className="text-gray-600">Call Us: View Mobile Number (as listed on official website)</p>
           </div>
         </div>
       </div>

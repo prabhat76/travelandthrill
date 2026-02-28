@@ -260,22 +260,52 @@ export const blogs: BlogItem[] = [
 
 export const testimonials = [
   {
-    name: 'Arzldffbzq',
-    date: '21 Feb 2024',
-    rating: 4,
-    text: 'I thank from the bottom of my heart to this company for helping us get the most amazing deal for my travel needs.'
-  },
-  {
-    name: 'N/A',
-    date: '02 Mar 2024',
+    name: 'Rahesh Sutariya',
+    date: '9 months ago',
     rating: 5,
-    text: 'Interesting packages for different destinations and purposes, from budget to luxury clients.'
+    text: 'I had a wonderful 7-night, 8-day trip to Sikkim arranged by Mr. Rupesh. From start to finish, he was incredibly supportive, responsive, and maintained a calm demeanor that made planning the trip smooth and stress-free. His attention to detail was impeccable.'
   },
   {
-    name: 'Mike Ramacey',
-    date: '09 Mar 2024',
-    rating: 4,
-    text: 'Glad I chose this agent for booking different travel packages. I recommend the company to friends and family.'
+    name: 'Anjumara Khatun',
+    date: '9 months ago',
+    rating: 5,
+    text: 'We recently had the pleasure of going on a Darjeeling tour with Travel & Thrills, and it was absolutely wonderful! The breathtaking beauty of Darjeeling took our breath away at every turn. Our driver, Mr. Prabin, was incredibly experienced.'
+  },
+  {
+    name: 'Suban Sarkar',
+    date: 'A year ago',
+    rating: 5,
+    text: 'Awesome trip arranged by Travel and Thrills especially by Rupesh Tamang, who not only helped share a beautiful itinerary but also helped and guided us for a beautiful trip to Sikkim, his expert guidance and warm suggestion helped us to visit amazing places.'
+  },
+  {
+    name: 'Soumendu',
+    date: 'A year ago',
+    rating: 5,
+    text: 'Our Sandakphu trip for 3 days 2 night was arranged by Travel & Trills. Service was excellent. Hotels provided with excellent view room, which is very helpful for other members in group, specially for ladies and children, able to enjoy the beauty of nature.'
+  },
+  {
+    name: 'Swapnil Kharat',
+    date: '3 weeks ago',
+    rating: 5,
+    text: 'We had a good trip to Sikkim and really enjoyed it. Mr. Rupesh was very helpful during the trip.'
+  },
+  {
+    name: 'Abhishek',
+    date: '4 months ago',
+    rating: 5,
+    text: 'Rupesh has been our travel organizer for our trip to Kafergaon, Rishyap and Kalimpong. He has provided us the best plan possible. I will be availing his services in future as well.'
+  },
+  {
+    name: 'Ketan Helly',
+    date: '9 months ago',
+    rating: 5,
+    text: 'I had the pleasure of experiencing a trip to Sikkim and surrounding regions organized by Mr. Rupesh. Our itinerary included visits to Gangtok, Nathula Pass, Lachung, Yumthang Valley, Pelling, and Darjeeling, along with numerous sightseeing opportunities.'
+  },
+  {
+    name: 'Goutam Pal',
+    date: '9 months ago',
+    rating: 5,
+    text: 'Excellent service and very good experience with Rupesh Bhai. Very budget friendly tour.'
   }
 ];
 
@@ -284,7 +314,7 @@ export const destinations: DestinationItem[] = [
     slug: 'gangtok',
     name: 'Gangtok',
     country: 'India',
-    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399050.jpg',
+    image: '/pemayangtse-monastery-pelling-sikkim-1-attr-nearby.png',
     description: 'Capital of Sikkim with monasteries, viewpoints, and lively MG Marg evenings.',
     details:
       'Gangtok is one of the most popular gateways to Sikkim tours, known for scenic viewpoints, monasteries, and convenient access to North Sikkim circuits.',
@@ -294,7 +324,7 @@ export const destinations: DestinationItem[] = [
     slug: 'lachung',
     name: 'Lachung',
     country: 'India',
-    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399074.jpg',
+    image: '/lachung.png',
     description: 'Scenic North Sikkim village and base for Yumthang and high-altitude excursions.',
     details:
       'Lachung serves as a key overnight stop for travelers exploring Yumthang Valley and nearby mountain attractions in North Sikkim.',
@@ -304,7 +334,7 @@ export const destinations: DestinationItem[] = [
     slug: 'yumthang-valley',
     name: 'Yumthang Valley',
     country: 'India',
-    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399650.jpg',
+    image: '/yumthang.png',
     description: 'Known as the Valley of Flowers with alpine landscapes and river views.',
     details:
       'Yumthang Valley is one of the signature highlights of North Sikkim tours, offering seasonal blooms, dramatic mountain terrain, and cold valley rivers.',
@@ -314,7 +344,7 @@ export const destinations: DestinationItem[] = [
     slug: 'darjeeling',
     name: 'Darjeeling',
     country: 'India',
-    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400034.jpg',
+    image: '/pemayangtse-monastery-pelling-sikkim-1-attr-nearby.png',
     description: 'Tea gardens, Tiger Hill sunrise, monasteries, and colonial mountain charm.',
     details:
       'Darjeeling remains a flagship hill destination with iconic sunrise points, tea estate views, and a blend of culture, heritage, and mountain leisure.',
@@ -324,7 +354,7 @@ export const destinations: DestinationItem[] = [
     slug: 'kathmandu',
     name: 'Kathmandu',
     country: 'Nepal',
-    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399649.jpg',
+    image: '/nepal.png',
     description: 'Historic temples, heritage squares, and rich Nepali cultural experiences.',
     details:
       'Kathmandu features prominently in Nepal holiday circuits for its temples, architecture, and cultural landmarks, often paired with Pokhara.',
@@ -334,7 +364,7 @@ export const destinations: DestinationItem[] = [
     slug: 'paro',
     name: 'Paro',
     country: 'Bhutan',
-    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399754.jpg',
+    image: '/Paro.png',
     description: 'A serene Bhutanese valley town known for monasteries and mountain views.',
     details:
       'Paro is a key stop in Bhutan packages, offering scenic valleys, cultural sites, and a calm mountain atmosphere suited for leisure travel.',

@@ -34,6 +34,50 @@ export function BlogDetailPage() {
         <p className="text-sm text-blue-600 mb-2">{blog.date}</p>
         <h1 className="text-3xl md:text-4xl text-gray-900 mb-4">{blog.title}</h1>
         <p className="text-gray-700 leading-7 mb-8">{blog.content}</p>
+        
+        {/* Embedded Google Maps and Reviews iframes */}
+        {import.meta.env.VITE_GOOGLE_PLACES_API_KEY && (
+          <div className="space-y-8 mb-12">
+            {/* Map Section */}
+            <div>
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Our Location</h2>
+              <div className="w-full h-96 rounded-lg overflow-hidden shadow-lg">
+                <iframe
+                  title="Travel & Thrills map"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  loading="lazy"
+                  allowFullScreen
+                  referrerPolicy="no-referrer-when-downgrade"
+                  src={import.meta.env.VITE_GOOGLE_PLACE_ID 
+                    ? `https://www.google.com/maps/embed/v1/place?key=${import.meta.env.VITE_GOOGLE_PLACES_API_KEY}&q=place_id:${import.meta.env.VITE_GOOGLE_PLACE_ID}`
+                    : `https://www.google.com/maps/embed/v1/place?key=${import.meta.env.VITE_GOOGLE_PLACES_API_KEY}&q=27.052689,88.3527522&zoom=17`}
+                />
+              </div>
+            </div>
+
+            {/* Reviews Section */}
+            <div>
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Recent Google Reviews</h2>
+              <div className="w-full h-96 rounded-lg overflow-hidden shadow-lg">
+                <iframe
+                  title="Travel & Thrills reviews"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  loading="lazy"
+                  allowFullScreen
+                  referrerPolicy="no-referrer-when-downgrade"
+                  src={import.meta.env.VITE_GOOGLE_PLACE_ID 
+                    ? `https://www.google.com/maps/embed/v1/place?key=${import.meta.env.VITE_GOOGLE_PLACES_API_KEY}&q=place_id:${import.meta.env.VITE_GOOGLE_PLACE_ID}&zoom=15`
+                    : `https://www.google.com/maps/embed/v1/place?key=${import.meta.env.VITE_GOOGLE_PLACES_API_KEY}&q=27.052689,88.3527522&zoom=15`}
+                />
+              </div>
+            </div>
+          </div>
+        )}
+
         <div className="flex gap-4">
           <Link to="/blogs" className="bg-gray-100 hover:bg-gray-200 px-5 py-2 rounded text-gray-900">All Blogs</Link>
           <Link to="/packages" className="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded text-white">View Packages</Link>
