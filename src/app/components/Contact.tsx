@@ -30,25 +30,6 @@ export function Contact() {
     setFormData((prev) => ({ ...prev, [key]: value }));
   };
 
-  const sendViaMailTo = () => {
-    const subject = encodeURIComponent(`New Enquiry from ${formData.name}`);
-    const body = encodeURIComponent(
-      [
-        `Name: ${formData.name}`,
-        `Email: ${formData.email}`,
-        `Country: ${formData.country}`,
-        `State: ${formData.state}`,
-        `City: ${formData.city}`,
-        `Phone: ${formData.phone}`,
-        '',
-        'Enquiry Details:',
-        formData.enquiry,
-      ].join('\n')
-    );
-
-    window.location.href = `mailto:official@travelandthrills.com?subject=${subject}&body=${body}`;
-  };
-
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setIsSubmitting(true);
@@ -57,10 +38,16 @@ export function Contact() {
     const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
     const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
     const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+    const hasValidEmailJsConfig =
+      Boolean(serviceId && templateId && publicKey) &&
+      !String(serviceId).includes('your_') &&
+      !String(templateId).includes('your_') &&
+      !String(publicKey).includes('your_');
 
-    if (!serviceId || !templateId || !publicKey) {
-      sendViaMailTo();
-      setSubmitMessage('Your mail app has been opened. Please send the drafted enquiry email.');
+    if (!hasValidEmailJsConfig) {
+      setSubmitMessage(
+        'Email service setup is incomplete. Please add valid EmailJS Template ID and Public Key in .env.local.'
+      );
       setIsSubmitting(false);
       return;
     }
@@ -78,6 +65,7 @@ export function Contact() {
           template_params: {
             from_name: formData.name,
             from_email: formData.email,
+            email: 'official@travelandthrills.com',
             country: formData.country,
             state: formData.state,
             city: formData.city,
@@ -88,13 +76,33 @@ export function Contact() {
       });
 
       if (!response.ok) {
-        throw new Error('Failed to send enquiry email.');
+        const errorText = await response.text();
+        let serverMessage = errorText;
+
+        try {
+          const parsed = JSON.parse(errorText);
+          serverMessage = parsed?.text || parsed?.message || errorText;
+        } catch {
+          serverMessage = errorText;
+        }
+
+        if (response.status === 412) {
+          throw new Error(
+            'EmailJS blocked this origin. In EmailJS dashboard, add this domain in Allowed Origins (e.g. http://localhost:5173).'
+          );
+        }
+
+        throw new Error(serverMessage || 'Failed to send enquiry email.');
       }
 
       setSubmitMessage('Enquiry submitted successfully. We will contact you shortly.');
       setFormData(initialFormData);
-    } catch {
-      setSubmitMessage('Unable to send enquiry right now. Please try again in a moment.');
+    } catch (error) {
+      const message =
+        error instanceof Error && error.message
+          ? `Unable to send enquiry: ${error.message}`
+          : 'Unable to send enquiry right now. Please try again in a moment.';
+      setSubmitMessage(message);
     } finally {
       setIsSubmitting(false);
     }
