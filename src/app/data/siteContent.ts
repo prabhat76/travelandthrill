@@ -194,6 +194,55 @@ Hotels: Gangtok (2 nights), Lachung (2 nights)
 Inclusion: Transport, Fooding, Lodging, Parking, Zero Point access
 Exclusion: Optional sightseeing, Lunch, Flight/Train Fares, Entry Fees, Room Heater`,
     image: 'https://images.unsplash.com/photo-1585147269142-fd99a15a7aed?w=800&h=600&fit=crop&q=80',
+  },
+  {
+    slug: 'bhutan-mystique-gateway-to-happiness-6n7d',
+    title: 'Bhutan Mystique: Gateway to Happiness (6N7D)',
+    duration: '6 Nights / 7 Days',
+    price: '₹32,500',
+    people: 'Minimum 5 Pax',
+    highlights: [
+      'Destination Covered: Phuentsholing, Thimphu, Punakha, Paro',
+      'Tour Activities: Monastery Trekking, Sightseeing, Cultural Tours, Optional River Rafting',
+      'Tour Themes: Religious & Pilgrimage, Cultural Heritage, Mountain Experiences, Adventure',
+      'Highlights: Tiger\'s Nest Monastery (10,245 ft), Dochula Pass (3,150 m), Punakha Dzong, Buddha Dordenma',
+      'Experience: Traditional Archery, Hot Stone Bath, Bhutanese Butter Tea, Takin Zoo, National Museum'
+    ],
+    details: `ITINERARY
+
+Day 01: Bagdogra Airport – Phuentsholing (145 km, 4 hours)
+Arrival at Bagdogra Airport. Drive from Bagdogra to Phuentsholing, the border town of Bhutan (about 4-5 hours). Complete immigration formalities at the Bhutan-India border. Check-in at your hotel in Phuentsholing. Explore the local market and nearby attractions. Overnight stay in Phuentsholing.
+
+Day 02: Phuentsholing to Thimphu (160 KMS, 5 HRS)
+After breakfast, checkout from the hotel. After immigration, proceed towards Thimphu. Enjoy beautiful journey through scenic landscapes. Pass through Chukha Waterfall and Chuzom Bridge (confluence of Thimphu river and Paro river). Arrive Thimphu by evening and check in to your hotel. Leisure time in the evening. Overnight stay in Thimphu.
+
+Day 03: Thimphu to Punakha Excursion (75 KMS, 2.5 HRS ONE WAY)
+After breakfast, drive to Punakha. Visit Dochula Pass (3,150 mts) - a beautiful mountain pass with 108 memorial stupas. Visit Punakha Dzong - the second oldest dzong in Bhutan, which served as the capital and seat of government until the mid-1950s. See Punakha Suspension Bridge - one of the longest and oldest suspension bridges in Bhutan. After sightseeing, return to hotel in Thimphu. Overnight stay in Thimphu. Optional: Experience River Rafting in Punakha.
+
+Day 04: Thimphu Sightseeing – Paro (45 km, 1.5 hours)
+After breakfast, proceed for Thimphu local sightseeing. Visit Buddha Dordenma Statue - a huge statue of Buddha. Visit The National Memorial Chorten Stupas - built in memory of the third king. Visit Takin Zoo - where the national animal of Bhutan can be seen. Visit Changangkha Lhakhang - oldest surviving temple in Thimphu. Visit Simply Bhutan Museum - taste local wine 'Aara', dress up in traditional clothes, play National game Archery, meet foot carver Pema Tshering, watch cultural show and drink Bhutanese Butter Tea. Arrival to Paro by evening. Check in to your hotel. Overnight stay in Paro.
+
+Day 05: Paro Sightseeing
+After breakfast, proceed to Tiger's Nest Monastery (also known as Paro Taktsang) - a sacred Buddhist temple and monastery (6.4 KMS, 3-5 HRS, ALTITUDE 10,245 FT, ELEVATION 900 MTR). The hike is easy to moderate. For people who cannot make the climb, horses are available for hire at the starting point. After the hike, enjoy hot stone bath at countryside. Overnight stay in Paro. Optional: Enjoy live music at Park 76 Cafe & Pub in Paro Town.
+
+Day 06: Paro Local Sightseeing - Transfer to Phuentsholing (150km, 4hours)
+After breakfast, proceed to Paro local sightseeing. Visit Ta Dzong – National Museum of Bhutan. Visit Rinpung Dzong - popularly known as Paro Dzong, situated in the Paro Valley. Afternoon drive to Phuentsholing with stopovers and enjoying scenic beauty. Arrive Phuentsholing by evening and check in to your hotel. Overnight stay in Phuentsholing.
+
+Day 07: Phuentsholing to Bagdogra Airport (145km, 4hrs)
+After breakfast, check-out from hotel and transfer to Bagdogra Airport for onwards journey. Suggested: Book flight after 02:00 PM from Bagdogra Airport.
+
+Inclusions: 3-star Hotel, Pick-up & Drop at Bagdogra Airport, Reserved vehicle for Transfer and Sightseeing, All sightseeing as per itinerary, All taxes & SDF permits, Meal Plan – MAP (Breakfast & Dinner)
+
+Exclusions: Personal expenses, Entry fees of sightseeing places, Any other not mentioned in inclusions
+
+Hotels: Hotel Terminal Phuentsholing (2N), Hotel Dralha Thimphu (2N), Empire Hotel Paro (2N)
+Vehicle: 1 Luxury Vehicle (Innova/Eartiga or similar)
+Meal Plan: MAP (Breakfast & Dinner)
+
+Documents Required: Valid Passport (6 months validity), For below 18 years - DOB certificate, 2 Passport Size Colour Photographs, Double Vaccination Certificate (Note: Aadhaar Card is not valid in Bhutan)
+
+Valid Identity Proofs for Bhutan: Indians can use Voter Card or Valid Passport`,
+    image: 'https://images.pexels.com/photos/3573351/pexels-photo-3573351.jpeg?w=800&h=600&fit=crop',
   }
 ];
 
