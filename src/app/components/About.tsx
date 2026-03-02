@@ -4,10 +4,10 @@ import { Rocket, Users, Mountain, Sparkles, ChevronLeft, ChevronRight } from 'lu
 
 export function About() {
   const himalayasImages = [
-    'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=500&fit=crop&q=80',
-    'https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=800&h=500&fit=crop&q=80',
-    'https://images.unsplash.com/photo-1495616810223-4d98c6e9c869?w=800&h=500&fit=crop&q=80',
-    'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&h=500&fit=crop&q=80',
+    '/banner.jpeg',
+    '/nepal.png',
+    '/nepaltour.png',
+    '/lachung.png',
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

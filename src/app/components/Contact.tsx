@@ -204,7 +204,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="mb-1 text-gray-900">Email</h4>
-                    <p className="text-gray-600">planmytraveltrek24@gmail.com</p>
+                    <p className="text-gray-600">official@travelandthrills.com</p>
                   </div>
                 </div>
 
