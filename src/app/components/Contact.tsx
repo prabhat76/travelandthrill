@@ -46,7 +46,7 @@ export function Contact() {
       ].join('\n')
     );
 
-    window.location.href = `mailto:planmytraveltrek24@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:official@travelandthrills.com?subject=${subject}&body=${body}`;
   };
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {

@@ -62,7 +62,7 @@ export function Footer() {
             <h3 className="text-lg mb-4">Contact</h3>
             <div className="space-y-2 text-gray-400">
               <p>Rupesh Tamang</p>
-              <p>planmytraveltrek24@gmail.com</p>
+              <p>official@travelandthrills.com</p>
               <p>6th Mile Bazar, Tukdah, Peshok Road</p>
               <p>Darjeeling, West Bengal - 734222</p>
             </div>

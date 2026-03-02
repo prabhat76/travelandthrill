@@ -34,125 +34,47 @@ export type DestinationItem = {
 
 export const packages: PackageItem[] = [
   {
-    slug: 'sikkim-bliss-exploring-the-roof-of-the-world-4-n-5d',
-    title: 'Sikkim Bliss Exploring the Roof of the World 4 N - 5d',
-    duration: '4 Nights / 5 Days',
-    price: '₹10,450',
-    people: 'As per itinerary',
-    highlights: ['Destination Covered: Gangtok, Yumthang, Lachung', 'Tour Activities: Sightseeing', 'Tour Themes: Hill Stations & Valleys, Religious & Pilgrimage'],
-    details: 'Welcome to Bagdogra Airport. Representative assistance and vehicle pick-up. Drive to Gangtok, followed by North Sikkim and Yumthang circuit as per itinerary.',
-    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399050.jpg',
-    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/sikkim-bliss-exploring-the-roofof-the-world4n5d.htm'
-  },
-  {
-    slug: 'sikkim-bliss-exploring-the-roof-of-the-world-5nights-6-days',
-    title: 'SIKKIM BLISS: EXPLORING THE ROOF OF THE WORLD 5NIGHTS - 6 DAYS',
-    duration: '5 Nights / 6 Days',
-    price: '₹15,675',
-    people: 'As per itinerary',
-    highlights: ['Destination Covered: Gangtok, Yumthang, Lachung', 'Tour Activities: Sightseeing', 'Tour Themes: Hill Stations & Valleys'],
-    details: 'Extended Sikkim package with Gangtok and North Sikkim route for travelers who want additional days in the hills.',
-    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399074.jpg',
-    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/sikkim-bliss-exploring-the-roofof-the-world-5nights6-days.htm'
-  },
-  {
-    slug: 'nepal-tour-5n-6d',
-    title: 'Nepal Tour- 5N 6D',
-    duration: '5 Nights / 6 Days',
-    price: '₹19,500',
-    people: 'As per itinerary',
-    highlights: ['Destination Covered: Kathmandu, Pokhara', 'Tour Activities: Sightseeing', 'Tour Themes: Hill Stations & Valleys, Religious & Pilgrimage'],
-    details: 'As per train schedule arrival in Gorakhpur, transport assistance is provided and the itinerary proceeds to Kathmandu and Pokhara sightseeing.',
-    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399649.jpg',
-    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/nepal-package-from-gorakhpur.htm'
-  },
-  {
-    slug: 'sikkim-bliss-exploring-the-roof-of-the-world-tour',
-    title: 'Sikkim Bliss Exploring the roof of the world tour',
-    duration: '6 Nights / 7 Days',
-    price: 'On Request',
-    people: 'As per itinerary',
-    highlights: ['Destination Covered: Gangtok, Pelling, Yumthang, Lachung, Pemayangtse Monastery', 'Tour Activities: Camping, Sightseeing', 'Tour Themes: Wildlife, Hill Stations & Valleys'],
-    details: 'Complete Sikkim circuit package with mountain sightseeing and multi-stop stay plan.',
-    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399650.jpg',
-    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/6-night-7-days-sikkim-package.htm'
-  },
-  {
-    slug: 'bhutan-mystique-gateway-to-happines-4-nights-5-days-tour',
-    title: 'Bhutan Mystique Gateway to Happines 4 Nights 5 Days Tour',
-    duration: '5 Days / 4 Nights',
-    price: 'On Request',
-    people: 'As per itinerary',
-    highlights: ['Destination Covered: Thimphu', 'Tour Activities: Sightseeing', 'Tour Themes: Hill Stations & Valleys'],
-    details: 'Bhutan itinerary route designed for mountain and cultural sightseeing.',
-    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/399754.jpg',
-    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/4-nights-5-days-bhutan-tour.htm'
-  },
-  {
-    slug: '5-nights-6-days-tours-to-guwahati-to-meghalaya',
-    title: '5 Nights - 6 Days Tours To Guwahati To Meghalaya',
-    duration: '5 Nights / 6 Days',
-    price: 'On Request',
-    people: 'As per itinerary',
-    highlights: ['Destination Covered: Shillong, Cherrapunji, Dawki, Mawsmai Falls, Elephant Falls', 'Tour Activities: Trekking, Sightseeing', 'Tour Themes: Hill Stations & Valleys, Religious & Pilgrimage'],
-    details: 'Meghalaya route featuring Shillong, Cherrapunji, and Dawki sightseeing.',
-    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400033.jpg',
-    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/5-nights6-days-toursto-guwahatito-meghalaya.htm'
-  },
-  {
-    slug: 'amazing-north-east-india-06-nights-07-days',
-    title: 'Amazing North East India 06 Nights - 07 Days',
-    duration: '6 Nights / 7 Days',
-    price: 'On Request',
-    people: 'As per itinerary',
-    highlights: ['Destination Covered: Gangtok, Darjeeling, Kalimpong, Hanuman Tok, Ganesh Tok, Enchey Monastery', 'Tour Activities: Mountaineering, Sightseeing', 'Tour Themes: Hill Stations & Valleys'],
-    details: 'North East India package covering key Sikkim and Darjeeling circuits.',
-    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400034.jpg',
-    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/amazing-north-east-india06-nights07-days.htm'
-  },
-  {
-    slug: '5-nights-6-days-kashmir-to-kashmir-dal-lake-gulmarg-sonamarg-pahalgam-tour',
-    title: '5 Nights 6 Days Kashmir To Kashmir - Dal Lake - Gulmarg - Sonamarg - Pahalgam Tour',
-    duration: '5 Nights / 6 Days',
-    price: 'On Request',
-    people: 'As per itinerary',
-    highlights: ['Destination Covered: Srinagar, Pahalgam, Sonamarg, Gulmarg, Shankaracharya Temple, Dal Lake', 'Tour Activities: Mountaineering', 'Tour Themes: Hill Stations & Valleys'],
-    details: 'Kashmir circuit package with Srinagar, Gulmarg, Sonamarg, and Pahalgam sightseeing.',
-    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400035.jpg',
-    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/5-nights6-days-kashmirto-kashmir-dal-lake-gulmarg-sonamarg-pahalgam.htm'
-  },
-  {
-    slug: '2-nights-3-days-goa-tour-package',
-    title: '2 Nights - 3 Days Goa Tour Package',
-    duration: '2 Nights / 3 Days',
-    price: 'On Request',
-    people: 'As per itinerary',
-    highlights: ['Destination Covered: North Goa, South Goa', 'Tour Activities: Beaches Sightseeing', 'Tour Themes: Beaches and Islands'],
-    details: 'Short Goa package focused on North and South Goa sightseeing.',
-    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400036.jpg',
-    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/2-nights3-days-goa-tour-package.htm'
-  },
-  {
-    slug: '13-nights-14-days-everest-base-camp-trek-tour',
-    title: '13 Nights 14 Days Everest Base Camp Trek Tour',
-    duration: '13 Nights / 14 Days',
-    price: 'On Request',
-    people: 'As per itinerary',
-    highlights: ['Destination Covered: Kathmandu, Solukhumbu', 'Tour Activities: Trekking', 'Tour Themes: Adventure Tours, Hill Stations & Valleys'],
-    details: 'Long-duration Everest Base Camp trek itinerary via Kathmandu and Solukhumbu route.',
-    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400037.jpg',
-    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/13-nights14-days-everest-base-camp-trek-tour.htm'
-  },
-  {
-    slug: 'kerala-4-night-5-days-package',
-    title: 'Kerala 4 Night 5 Days Package',
-    duration: '4 Nights / 5 Days',
-    price: 'On Request',
-    people: 'As per itinerary',
-    highlights: ['Destination Covered: Thekkady, Alleppey, Munnar', 'Tour Activities: House Boat, Boating, Sightseeing', 'Tour Themes: Hill Stations & Valleys'],
-    details: 'Kerala route package with Munnar, Thekkady, and Alleppey experiences.',
-    image: 'https://ttw.wlimg.com/package-images/photo-big/dir_57/1682301/400038.jpg',
-    sourceUrl: 'https://www.travelandthrillsholidays.co.in/holiday-packages/kerala4-night5-days-package.htm'
+    slug: 'golden-triangle-tour-of-nepal-7n8d',
+    title: 'Golden Triangle Tour of Nepal (7N8D)',
+    duration: '7 Nights / 8 Days',
+    price: '₹35,500',
+    people: 'Minimum 2 Pax (Twin Sharing)',
+    highlights: [
+      'Destination Covered: Kathmandu, Chitwan, Pokhara',
+      'Tour Activities: Jungle Safari, Sightseeing, Boat Ride, Cultural Experience',
+      'Tour Themes: Religious & Pilgrimage, Wildlife, Hill Stations & Valleys, Adventure Tours',
+      'UNESCO World Heritage Sites: Pashupatinath, Boudhanath, Swayambhunath, Kathmandu Durbar Square',
+      'Wildlife Safari: Chitwan National Park with one-horned rhinos and Bengal tigers',
+      'Adventure Activities: Paragliding, Ultralight tour, Helicopter city tour (optional)'
+    ],
+    details: `ITINERARY
+
+Day 01: Arrival in Kathmandu
+Upon your arrival at Tribhuvan International Airport in Kathmandu, you will be warmly welcomed and transferred to your hotel. After check-in and a brief rest, you will head to the sacred Pashupatinath Temple, one of the holiest Hindu temples dedicated to Lord Shiva. In the evening, witness the mesmerizing Ganga Aarati ceremony on the banks of the Bagmati River—a spiritually uplifting experience. Return to your hotel for dinner and rest. Overnight stay in Kathmandu.
+
+Day 02: Exploring the Cultural Heart of Kathmandu
+After a delightful breakfast, begin your day by exploring Kathmandu Durbar Square, a UNESCO World Heritage Site known for its stunning Newari architecture, ancient palaces, and temples. Continue to Swayambhunath Stupa, also called the Monkey Temple, perched on a hilltop offering panoramic views of the Kathmandu Valley. Later, visit the peaceful and massive Boudhanath Stupa, a key spiritual hub for Tibetan Buddhists. The day is a blend of cultural depth and scenic beauty. Overnight stay in Kathmandu.
+
+Day 03: Drive to Chitwan – Jungle Life Begins
+After breakfast, set off on a scenic drive to Chitwan National Park (approximately 5–6 hours), located in the subtropical lowlands of southern Nepal. On arrival, check into a jungle resort and relax. Later take a guided walk through a Tharu village, where you'll learn about the local lifestyle and customs. In the evening, enjoy a traditional Tharu cultural dance performance. Wind down with dinner in the peaceful ambiance of the forest. Overnight stay in Chitwan.
+
+Day 04: Jungle Safari Adventure in Chitwan
+Today is full of adventure and wildlife exploration. After breakfast, embark on an exciting elephant-back safari or jeep safari through Chitwan National Park, home to exotic wildlife including one-horned rhinos, deer, wild boars, and—if you're lucky—you can even spot the elusive Bengal tiger. Later, enjoy a tranquil canoe ride on the Rapti River, spotting crocodiles and a variety of bird species along the way. The day also includes a visit to the elephant breeding center, offering insight into elephant conservation. Overnight stay in Chitwan.
+
+Day 05: Drive to Pokhara – The Lakeside Gem
+After breakfast, depart for Pokhara, a picturesque city nestled beside the Himalayas (approximately a 4–5-hour drive). Upon arrival, check into your hotel near Phewa Lake, the vibrant heart of Pokhara. In the evening, enjoy a serene boat ride on Phewa Lake and visit the Tal Barahi Temple, situated on a small island. You'll have free time to stroll along the lakeside, relax in cafés, or shop for souvenirs. Overnight stay in Pokhara.
+
+Day 06: Pokhara Sightseeing & Adventure
+Rise early for a drive to Sarangkot, a famous viewpoint for witnessing a breathtaking sunrise over the Annapurna and Dhaulagiri ranges. After breakfast, explore Pokhara's highlights including the majestic Davis Falls, the mystical Gupteshwor Mahadev Cave, and the serene World Peace Pagoda. Adventure seekers may opt for activities such as paragliding, Ultralight tour, or even a helicopter city tour. Overnight stay in Pokhara.
+
+Day 07: Return to Kathmandu
+After breakfast, drive back to Kathmandu (approx. 6 hours). Upon arrival, enjoy some free time in Thamel, the bustling tourist hub known for its vibrant markets, handicraft stores, and restaurants. In the evening, indulge in a traditional Nepali dinner accompanied by a cultural dance performance—a perfect farewell to your Nepali adventure. Overnight stay in Kathmandu.
+
+Day 08: Visit Jalnarayan Temple & Departure
+After breakfast, visit the sacred Jalnarayan Temple (Sleeping Vishnu Temple), a revered Hindu site featuring a large reclining statue of Lord Vishnu in a pond. Later, you'll be transferred to the airport in time for your onward journey, carrying with you the rich memories and spiritual energy of Nepal's Golden Triangle.
+
+Note: The above package can be fully customized according to your requirements. Please feel free to contact us with any inquiries.`,
+    image: '/nepal.png',
   }
 ];
 
