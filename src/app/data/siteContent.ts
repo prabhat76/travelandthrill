@@ -75,6 +75,125 @@ After breakfast, visit the sacred Jalnarayan Temple (Sleeping Vishnu Temple), a 
 
 Note: The above package can be fully customized according to your requirements. Please feel free to contact us with any inquiries.`,
     image: '/nepal.png',
+  },
+  {
+    slug: 'darjeeling-exploring-off-beat-destination-5n6d',
+    title: 'Darjeeling: Exploring Off Beat Destination (5N6D)',
+    duration: '5 Nights / 6 Days',
+    price: '₹12,800',
+    people: 'Minimum 6 Pax',
+    highlights: [
+      'Destination Covered: Sittong, Lamahatta, Darjeeling, Mirik',
+      'Tour Activities: Tea Garden Tours, Sightseeing, Adventure Drives',
+      'Tour Themes: Hill Stations & Valleys, Off-Beat Experiences, Cultural Exploration',
+      'Highlights: Tiger Hill Sunrise, Dali Monastery, Batasia Loop, Sumendu Lake',
+      'Experience: Orchid Lake, Chinchona Plantation, Gopaldhara Tea Estate, Himalayan Views'
+    ],
+    details: `ITINERARY
+
+Day 01: Siliguri/NJP – Sittong (29 KM, 1.5 hrs)
+On arrival at NJP Railway Station / Bagdogra Airport, meet our local representative. Drive to Sittong with beautiful tea garden views of Rohini Road and Kurseong Bazar. Check-in at Sittong Homestay. Overnight stay in Sittong.
+
+Day 02: Sittong Sightseeing – Lamahatta (65 KM, 2.5 hrs)
+After breakfast, visit Ahaldara Viewpoint, Sittong Monastery, Orchid Lake, Chinchona Plantation, Namthang Lake, and Latpanchar. Transfer to Lamahata for overnight stay.
+
+Day 03: Lamahatta - Sightseeing – Darjeeling (25 KM, 1 hr)
+After breakfast, visit Lamahatta Park (Mamta Park), Tinchulay Viewpoint, Peshok Tea Garden, Triveni Viewpoint, and Teasta River. Drive towards Darjeeling and check-in at homeland. Evening free for shopping or leisure. Overnight stay in Darjeeling.
+
+Day 04: Darjeeling Sightseeing
+Early morning drive to Tiger Hill for sunrise. After breakfast, visit Dali Monastery, Batasia Loop, Himalayan Mountaineering Institute, P.N. Zoological Park, Tenzing Rock, Tea Garden (outer view), and Japanese Temple. Optional: Darjeeling Himalayan Toy Train joy ride. Overnight stay in Darjeeling.
+
+Day 05: Darjeeling - Mirik
+After breakfast, journey towards Mirik. Visit Lepchajagat, Simana Viewpoint (Nepal border), Sumendu Lake (famous manmade lake), Pashupati Nagar, and Gopaldhara Tea Estate. Transfer to Homestay. Overnight stay in Mirik.
+
+Day 06: Mirik to NJP Railway Station
+After breakfast, check out and transfer to NJP Railway Station according to departure time.
+
+Meal Plan: MAP/AP (Breakfast, Lunch, Snacks, Dinner in Sittong, Lamahatta, and Mirik; MAP in Darjeeling)
+Vehicle: Luxury Vehicle (Innova/Eartiga or similar)
+Hotels: Sittong (1 night), Lamahata (1 night), Darjeeling (2 nights), Mirik (1 night)`,
+    image: 'https://images.unsplash.com/photo-1489749798305-4fea3ba63d60?w=800&h=600&fit=crop&q=80',
+  },
+  {
+    slug: 'sikkim-darjeeling-roof-of-the-world-7n8d',
+    title: 'Sikkim & Darjeeling: Exploring the Roof of the World (7N8D)',
+    duration: '7 Nights / 8 Days',
+    price: '₹1,09,000',
+    people: 'Minimum 5 Pax',
+    highlights: [
+      'Destination Covered: Gangtok, Lachung, Darjeeling',
+      'Tour Activities: Mountain Trekking, Sightseeing, Lake Excursions',
+      'Tour Themes: Religious & Pilgrimage, Hill Stations & Valleys, Adventure Tours',
+      'Highlights: Gangtok MG Marg, Yumthang Valley (12,000 ft), Tsomgo Lake & Babamandir',
+      'Experience: Tiger Hill Sunrise, Himalayan Mountaineering Institute, Optional Cable Ropeway'
+    ],
+    details: `ITINERARY
+
+Day 01: Bagdogra Airport – Gangtok (120 KMS, 5 HRS)
+Welcome to Bagdogra Airport. Representative assistance and vehicle pick-up. Drive to Gangtok passing through Mahananda Wildlife Sanctuary. Follow the course of Teasta River. Check-in at hotel in Gangtok. Rest of the time explore MG Marg, Mall Road, Local Market. Overnight stay in Gangtok.
+
+Day 02: Gangtok – Lachung (107 KMS, 6 HRS)
+After breakfast, check out with limited luggage. Proceed to Lachung (8,500 ft) in North Sikkim. Enroute visit Naga Waterfall and Bhim Nala Waterfall. Check-in at hotel in Lachung. Overnight stay in Lachung.
+
+Day 03: Lachung – Yumthang Valley Excursion
+Early morning drive to Yumthang Valley (12,000 ft). Optional tour of Zero Point at extra cost (Rs. 3,500 per vehicle). Mt. Katawo (Rs. 2,000 extra). Rest of the time enjoy evening walk with beautiful views of Lachung. Overnight stay in Lachung.
+
+Day 04: Lachung – Gangtok (120 KMS, 5 HRS)
+After breakfast, check out from hotel and travel to Gangtok. Explore MG Marg and Local Market. Overnight stay in Gangtok.
+
+Day 05: Excursion to Tsomgo Lake & Babamandir
+Breakfast, then excursion to Tsomgo Lake & Babamandir. Optional Ropeway cable ride recommended. Optional Nathula Pass Permit at extra cost (Rs. 4,000 per vehicle, subject to availability, closed on Monday). Overnight stay in Gangtok.
+
+Day 06: Gangtok – Darjeeling (110 KM, 4 hours)
+After breakfast, check out and drive to Darjeeling via Teasta River. Check-in at hotel. Explore Mall Road, Chowrasta, Makhal Baba Temple, Local Market. Overnight stay in Darjeeling.
+
+Day 07: Darjeeling Sightseeing
+Early morning drive to Tiger Hill for sunrise. After breakfast, visit Dali Monastery, Batasia Loop, Himalayan Mountaineering Institute, P.N. Zoological Park, Tenzing Rock, Tea Garden (outer view), and Japanese Temple. Optional: Darjeeling Himalayan Toy Train joy ride. Overnight stay in Darjeeling.
+
+Day 08: Darjeeling – Siliguri/NJP Airport
+After breakfast, check out and drive towards Siliguri NJP. Transfer to Railway Station for onwards journey.
+
+Meal Plan: MAP (Dinner & Breakfast included)
+Vehicle: Luxury Vehicle (Innova/Xylo or similar)
+Hotels: Gangtok (3 nights), Lachung (2 nights), Darjeeling (2 nights)`,
+    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop&q=80',
+  },
+  {
+    slug: 'sikkim-bliss-roof-of-world-4n5d',
+    title: 'Sikkim Bliss: Exploring the Roof of the World (4N5D)',
+    duration: '4 Nights / 5 Days',
+    price: '₹11,000',
+    people: 'Minimum 13 Pax',
+    highlights: [
+      'Destination Covered: Gangtok, Lachung, Yumthang Valley',
+      'Tour Activities: Mountain Sightseeing, Waterfall Tours, High-Altitude Excursions',
+      'Tour Themes: Adventure Tours, Hill Stations & Valleys, Scenic Drives',
+      'Highlights: Gangtok MG Marg, Yumthang Valley (12,000 ft), Zero Point (15,300 ft)',
+      'Experience: Seven Sister Waterfalls, Snow-capped Peaks, Indo-China Border Region'
+    ],
+    details: `ITINERARY
+
+Day 01: Bagdogra Airport – Gangtok (120 KMS, 5 HRS)
+Welcome to Bagdogra Airport. Representative assistance and vehicle pick-up. Drive to Gangtok passing through Mahananda Wildlife Sanctuary. Follow the course of River Teesta. Check-in at hotel in Gangtok. Rest of time explore MG Marg, Mall Road, Local Market. Overnight stay in Gangtok.
+
+Day 02: Gangtok – Lachung (107 KMS, 6 HRS)
+After breakfast, check out with limited luggage. Proceed to Lachung (8,500 ft) in North Sikkim. Enroute visit Seven Sister Waterfalls, Bhim Nala Waterfall, Singhik Viewpoint. Check-in at hotel in Lachung. Overnight stay in Lachung.
+
+Day 03: Lachung – Yumthang Valley Excursion
+Early morning drive to Yumthang Valley (12,000 ft). Zero Point is a high-altitude (15,300 ft) tourist destination known as the last motorable outpost, offering stunning views of snow-capped peaks and merging rivers. It is a year-round snow spot near the Indo-China border, requiring permits for access. Rest of time enjoy evening walk with beautiful views of Lachung. Overnight stay in Lachung.
+
+Day 04: Lachung – Gangtok (120 KMS, 5 HRS)
+After breakfast, check out from hotel and travel to Gangtok. Visit Chungthang (small town where Lachung and Lachen rivers meet), Mangan, and Tashi Viewpoint. Check-in at hotel. Overnight stay in Gangtok.
+
+Day 05: Gangtok – Bagdogra Airport (120 KM, 5 HOURS)
+After breakfast, check-out from hotel and take departure transfer to Bagdogra Airport for your onward journey.
+
+Meal Plan: MAP (Dinner & Breakfast included)
+Vehicle: 2 Luxury Vehicles (Bolero/Scorpio or similar)
+Hotels: Gangtok (2 nights), Lachung (2 nights)
+Inclusion: Transport, Fooding, Lodging, Parking, Zero Point access
+Exclusion: Optional sightseeing, Lunch, Flight/Train Fares, Entry Fees, Room Heater`,
+    image: 'https://images.unsplash.com/photo-1585147269142-fd99a15a7aed?w=800&h=600&fit=crop&q=80',
   }
 ];
 
